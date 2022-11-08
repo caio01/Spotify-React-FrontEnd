@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap');
+
+.spinner {
+    margin: 0 auto;
+}
+
+.div-spinner {
+    width: max-content;
+    height: 100%;
+    margin: 400px auto;
+    color: white;
+}
+
+a {
+    color: rgb(155, 139, 139);
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+.singlePlaylist {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.playlist{
+    display: flex;
+    margin: 7% 0 50px 17%;
+    color: #ffffff;
+}
+
+.desc-playlist > h3 {
+    margin-top: 20px;
+}
+
+.desc-playlist > h4 {
+    color: #bab9b9;
+}
+
+.edit-play > p {
+    margin-top: 60%;
+}
+
+.desc-playlist > p:hover {
+    color: white;
+}
+
+.album-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.328);
+}
+
+.div-musics {
+    text-align: left;
+    width: 100%;
+    margin: 0 0 0 10%;
+}
+
+.music-audio {
+    width: 600px;
+    display: flex;
+    border-radius: 100px;
+}
+
+.music-audio:hover {
+    background-color: rgba(255, 255, 255, 0.126);
+    transition: 0.5s;
+}
+
+.music {
+    width: 100%;
+}
+
+.music > h3{
+    margin-left: 20px;
+}
+
+.music > h7 {
+    color: #bab9b9;
+    margin-left: 20px;
+}
+
+.audio-play {
+    float: right;
+    margin: 8px 20px 0 0;
+}
+
+.modal-title {
+    display: flex;
+}
+
+.input-search {
+    margin-left: 70vh;
+    padding-left: 10px;
+    font-size: 16px;
+}

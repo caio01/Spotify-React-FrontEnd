@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap');
+
+.navbar {
+	font-family: 'Quicksand', sans-serif;
+	background-color: rgb(32, 32, 32);
+}
+
+.navbar-logo{
+	width: 8rem;
+}
+
+a.nav-link,
+a.navbar-brand {
+	color: white;
+}
+a.navbar-brand svg {
+	margin: 0 8px 0 0;
+	width: 2rem;
+}
+
+.nav-link:focus, a.navbar-brand:focus {
+	color: white;
+}
+
+nav.navbar a:hover {
+	color: #1ed760;
+}
+
+.logout {
+	font-size: 17px;
+	color: white;
+	margin: 0 auto;
+}

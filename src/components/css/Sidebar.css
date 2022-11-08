@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap');
+
+.side {
+  width: 15%;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.side .pro-sidebar {
+  width: 100%;
+  min-width: 100%;
+}
+
+.side .pro-sidebar-inner .pro-sidebar-layout ul .pro-inner-item {
+  color: rgb(255, 255, 255);
+  margin: 20px 0px;
+  font-weight: bold;
+}
+
+.side .pro-sidebar-inner .pro-sidebar-layout ul .pro-inner-item .pro-icon-wrapper {
+  background-color: #272727;
+  color: rgb(255, 255, 255);
+  border-radius: 3px;
+}
+
+.side .pro-sidebar-inner .pro-sidebar-layout .active {
+  background-color: rgba(0, 0, 0, 0.33);
+  border-radius: 10px;
+  margin: 0 5px 0 3px;
+}
+
+.logout {
+  margin-left: 4vh;
+}
